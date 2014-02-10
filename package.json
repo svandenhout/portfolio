@@ -1,0 +1,9 @@
+{
+	"name": "portfolio",
+	"author": "Steven van den Hout" ,
+	"description": "my portfolio with mongoose for easy access to the database",
+
+	"dependencies": {
+		"mongoose": "3.8.*",
+	}
+}
