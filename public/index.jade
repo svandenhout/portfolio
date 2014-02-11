@@ -1,0 +1,13 @@
+doctype html
+html(lang="eng")
+  head
+    title= "portfolio"
+    script(type="text/javascript" src="all.js") 
+    
+  body
+    h1 My portfolio
+    p.
+      I will have fun writing this using jade
+    - works.forEach(function(work) {
+      p= work.title + ' ' + work.author
+    - })

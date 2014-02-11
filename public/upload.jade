@@ -1,0 +1,23 @@
+doctype html
+html(lang="eng")
+  head
+    title= "portfolio"
+    script(type="text/javascript" src="all.js") 
+    
+  body
+    h1 My form
+    
+    form(action="/upload", method="post")
+      span author:
+      input(type="text", name="author")
+      br
+      span title:
+      input(type="text", name="title")
+      br
+      span body:
+      textarea(name="body")
+      br
+      span image:
+      input(type="file", name="image")
+      br
+      input(type="submit")
